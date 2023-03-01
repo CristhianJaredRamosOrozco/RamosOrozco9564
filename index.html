@@ -1,39 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Topicos Avanzados</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Topicos Avanzados </title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
 </head>
-
-
 <body>
+
+    <!--Header - menu-->
     <header>
-        <div class="textos">
-            <h1 class="titulo">Topicos Avanzados de Programacion</h1>
-            <h3 class="subtitulo">Cristhian Jared Ramos Orozco</h3>
-            <a href="#" class="boton">Hola Mundo</a>
-        </div>
-        <div class="sesgoabajo"></div>
-    </header>
-    <main>
-        <section class="acerca-de">
-            <div class="contenedor">
-                <h2 class="sobre-nosotros">Intituto Tecnologico Superior de Martinez de la Torre</h2>
-                <h3 class="slogan">Ingenieria En Sistemas Computacionales</h3><br>
-                <p class="parrafo">Esta asignatura apoya en la implementación de aplicaciones computacionales para solucionar problemas de diversos contextos, integrando diferentes tecnologías, plataformas o dispositivos, por medio del desarrollo de software utilizando programación concurrente, acceso a datos, que soporte interfaz gráfica de usuario.</p>
-                <p class="parrafo">Permitirá crear soluciones de software para resolver problemas en diversos contextos utilizando programación concurrente, acceso a datos, que soporten interfaz gráfica de usuario y consideren dispositivos móviles.</p>
-                <a href="Botones.html" class="boton">Botones</a>
-                <a href="Botonconestilo.html" class="boton">Botones estilo</a>
-                <a href="BotonesRadio.html" class="boton">Checks And Radios</a>
-                <a href="Jquery.html" class="boton">Jquery</a>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Sistemas<b>Computacionales</b></h1>
             </div>
-        </section>
 
-        
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="Botones.html"> <i class="fas fa-home"></i>Botones</a></li>
+                        <li><a href="Botones con estilo.html"> <i class="fab fa-youtube"> </i>Botones con estilo</a></li>
+                        <li><a href="Botones Radio.html"> <i class="fas fa-headset"></i> Botones Radio</a></li>
+                        <li><a href="Jquery.html"> <i class="fas fa-headset"></i> Jquery</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="container-cover">
+        <div class="container-info-cover">
+            <h1>Cristhian Jared Ramos Orozco</h1>
+            <p>Topicos Avanzados de Programacion</p>
+        </div>
+    </div>
+
+    <div class="container-content">
+        <article>
+
+            <h1>Intituto Tecnologico Superior de Martinez de la Torre</h1>
+
+            <p>Esta asignatura apoya en la implementación de aplicaciones computacionales para solucionar problemas de diversos contextos, integrando diferentes tecnologías, plataformas o dispositivos, por medio del desarrollo de software utilizando programación concurrente, acceso a datos, que soporte interfaz gráfica de usuario.</p>
+
+            <p>Permitirá crear soluciones de software para resolver problemas en diversos contextos utilizando programación concurrente, acceso a datos, que soporten interfaz gráfica de usuario y consideren dispositivos móviles.</p>
+
+        </article>
+
+    <div class="container-footer">	
+
+        <footer>
+            <div class="logo-footer">
+                <img src="img/LogoITSMT.svg" alt="">
+            </div>
+
+            <div class="redes-footer"></div>
+
+            <hr>
+            <h4>Ramos Orozco Cristhian Jared</h4>
+
+        </footer>
+
+    </div>
+
+</div>
+
+    <script src="js/script.js"></script>
 </body>
-
 </html>
