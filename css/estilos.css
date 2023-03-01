@@ -191,10 +191,11 @@ article:before{
     background: #46a2fd;
 }
 
-article h1{
+article h3{
     margin-top: 20px;
     font-weight: 500;
     font-size: 40px;
+    text-align: justify;
 }
 
 article p{
